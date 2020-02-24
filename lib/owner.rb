@@ -59,7 +59,7 @@ class Owner
   end
   
   def feed_cats
-    Cat.all = Cat.all.collect do |cat|
+    Cat.all.collect do |cat|
       if(cat.owner == self)
         cat.mood = "happy"
       end
