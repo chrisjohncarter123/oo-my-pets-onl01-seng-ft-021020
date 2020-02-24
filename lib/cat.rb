@@ -20,8 +20,6 @@ class Cat
     @@all
   end
 
-  def self.all=(new_all)
-    @@all = new_all
-  end
+
 
 end
